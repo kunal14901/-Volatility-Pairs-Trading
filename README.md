@@ -126,7 +126,6 @@ python src/backtest_engine.py --lookback 200 --entry_z 2.5 --exit_z 0.5
 
 ## 📖 References
 1. Avellaneda, M., & Lee, J.-H. (2010). Statistical arbitrage in the US equities market
-2. Your Research (2024). Empirical results from Nifty/BankNifty IV data
 3. Original Kalman Filter paper (1960) with trading adaptations
 
 
