@@ -81,9 +81,8 @@ df['signal'] = np.where(
 | Sharpe Ratio    | 2.11       | 15.18          | 619% ↑      |
 | Win Rate        | 95%        | 90%            | 5% ↓        |
 | Max Drawdown    | -0.37%     | -0.28%         | 24% ↓       |
-| Annual Return   | 18.2%      | 32.7%          | 80% ↑       |
 
-![Cumulative PnL Curve](images/pnl_curve.png)
+![Cumulative PnL Curve](pnl_curve.png)
 
 ## 🛠️ Project Structure
 
