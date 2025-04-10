@@ -15,9 +15,11 @@ The strategy exploits the statistical relationship between two highly correlated
 Z_t = \frac{X_t - \mu_{τ}}{\sigma_{τ}}
 ```
 Where:
-- \( X_t \) = IV Spread (BankNifty IV - Nifty IV) at time t
-- \( \mu_{τ} \) = Rolling mean (200-minute window)
-- \( \sigma_{τ} \) = Rolling standard deviation
+**Formal Definition:**
+Let 
+- <code>X<sub>t</sub></code> = IV Spread at time t
+- <code>μ<sub>τ</sub></code> = 200-min rolling mean
+- <code>σ<sub>τ</sub></code> = Rolling standard deviation
 
 ### 2. Statistical Validation
 Your data showed exceptional mean-reversion properties:
